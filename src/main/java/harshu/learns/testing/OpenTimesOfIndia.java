@@ -17,7 +17,7 @@ import com.google.common.base.Function;
 public class OpenTimesOfIndia {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "/home/anshu/Desktop/selenium_installables/chromedriver_2");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ankumar\\dev\\learn-selenium\\chromedriver.exe");
 		WebDriver webDriver = new ChromeDriver();
 		webDriver.manage().window().maximize();
 		//webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
